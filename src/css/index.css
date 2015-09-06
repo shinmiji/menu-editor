@@ -1,0 +1,46 @@
+@charset "utf-8";
+body {
+	margin: 0;
+}
+div.wrap {
+	width: 960px;
+	height: 1000px;
+	padding: 20px;
+	margin: 0 auto;
+	background-color: #FCECF8;
+}
+div.tool {
+	margin-bottom: 20px;
+}
+div.tool > * {
+	border-radius: 5px;
+	padding: 0;
+}
+div.tool > input {
+	border: 2px solid #4800FF;
+	line-height: 27px;
+	width: 400px;
+	margin-right: 20px;
+}
+div.tool > button {
+	border: 0;
+	background-color: #D7D3F6;
+	padding: 5px 15px 8px;
+	margin: 0 5px;
+}
+ul, li {
+	padding: 0;
+	margin: 0;
+}
+ul.menu {
+	width: 730px;
+	margin: 0 20px;
+}
+ul.menu > li {
+	list-style: none;
+	box-shadow: 0px 3px 2px #e8e8e8;
+	margin: 5px 0;
+}
+ul.menu > li.choice {
+	background-color: #FFFC00;
+}
